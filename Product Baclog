@@ -1,0 +1,71 @@
+1. Jako użytkownik, chcę mieć możliwość założenia konta, aby mieć dostęp do pełnej funkcjonalności aplikacji, takiej jak zapisywanie ofert pracy i kursów.
+
+- Stworzenie formularza rejestracyjnego
+
+- Zaimplementowanie mechanizmu weryfikacji adresu e-mail
+
+2. Jako użytkownik, chcę mieć możliwość zalogowania się do aplikacji, aby móc wykorzystać pełną funkcjonalność, taką jak przeglądanie i zapisywanie ofert pracy i kursów.
+
+- Stworzenie formularza logowania
+
+3. Jako użytkownik, chcę mieć możliwość przeglądania ofert pracy i kursów, aby znaleźć interesujące mnie propozycje.
+
+- Implementacja algorytmów wyszukiwania ofert pracy i kursów
+
+- Integracja z różnymi źródłami danych, takimi jak strony z ogłoszeniami o pracę i kursach, aby umożliwić web scraping
+
+4.Jako użytkownik, chcę mieć możliwość filtrowania wyników według różnych kryteriów, takich jak lokalizacja, poziom doświadczenia, język programowania i typ pracy lub kursu.
+
+- Stworzenie formularza filtracji
+
+- Implementacja algorytmów filtrowania danych
+
+5. Jako użytkownik, chcę mieć możliwość przeglądania szczegółów każdej oferty, takich jak wymagania, zakres obowiązków, wynagrodzenie, terminy i inne.
+
+- Stworzenie strony szczegółów oferty
+
+- Zintegrowanie danych ofert z różnych źródeł
+
+6. Jako użytkownik, chcę mieć możliwość zapisywania interesujących mnie ofert w zakładce "Ulubione", aby łatwo je odnaleźć później.
+
+- Dodanie funkcjonalności zapisywania ofert w zakładce "Ulubione"
+
+- Przechowywanie danych o ulubionych ofertach w bazie danych
+
+7. Jako użytkownik, chcę mieć możliwość edytowania mojego profilu, aby aktualizować informacje o sobie i swoich preferencjach.
+
+- Stworzenie formularza edycji profilu
+
+- Zintegrowanie danych użytkowników z bazą danych
+
+8. Jako użytkownik, chcę mieć możliwość przeglądania mojego historii przeszukanych ofert pracy i kursów, aby móc łatwiej odnaleźć interesujące mnie propozycje.
+
+- Stworzenie strony z historią przeszukanych ofert
+
+- Przechowywanie danych o przeszukanych ofertach w bazie danych
+
+9. Jako użytkownik, chcę mieć możliwość usuwania mojego konta z aplikacji, aby móc usunąć moje dane osobowe i informacje związane z moim kontem.
+
+- Dodanie funkcjonalności usuwania konta
+
+- Usunięcie danych użytkownika z bazy danych po usunięciu konta
+
+10. Jako administrator, chcę mieć dostęp do panelu administracyjnego, aby móc zarządzać ofertami pracy i kursami oraz użytkownikami.
+
+- Stworzenie panelu administracyjnego
+
+- Zaimplementowanie funkcjonalności umożliwiającej dodawanie, edycję i usuwanie ofert pracy i kursów
+
+- Zintegrowanie panelu administracyjnego z bazą danych
+
+11. Jako administrator, chcę mieć możliwość moderowania komentarzy i opinii użytkowników, aby zapewnić poziom bezpieczeństwa i jakości aplikacji.
+
+- Dodanie funkcjonalności moderacji komentarzy i opinii użytkowników
+
+- Zaimplementowanie mechanizmu umożliwiającego zgłaszanie naruszeń zasad przez użytkowników
+
+12. Jako administrator, chcę mieć dostęp do raportów i statystyk dotyczących użytkowników i ofert pracy oraz kursów, aby móc lepiej zrozumieć potrzeby użytkowników i poprawić jakość aplikacji.
+
+- Implementacja mechanizmu generowania raportów i statystyk
+
+- Integracja z narzędziami do analizy danych, takimi jak Google Analytics
