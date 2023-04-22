@@ -35,4 +35,4 @@ WYMAGANIA TECHNICZNE
 
 4.Aplikacja powinna wykorzystywać bazy danych, takie jak MySQL lub MongoDB, do przechowywania danych ofert pracy i kursów oraz danych użytkowników.
 
-5.Aplikacja powinna być hostowana na platformie chmurowej, tak
+5.Aplikacja powinna być hostowana na platformie chmurowej
