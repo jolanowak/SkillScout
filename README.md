@@ -1,38 +1,70 @@
-# SkillScout
-Aplikacja SkillScout to platforma wieloplatformowa, która umożliwia juniorom IT przeglądanie i wyszukiwanie ofert pracy oraz kursów z branży technologicznej. Aplikacja korzysta z web scrapingu, aby zbierać i aktualizować informacje o ofertach pracy i kursach z różnych źródeł internetowych
+# Getting Started with Create React App
 
-WYMAGANIA FUNKCJONALNE 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1.Aplikacja powinna umożliwiać użytkownikom przeglądanie ofert pracy i kursów dla juniorów IT
+## Available Scripts
 
-2.Aplikacja powinna umożliwiać użytkownikom filtrowanie wyników według różnych kryteriów, takich jak lokalizacja, poziom doświadczenia, język programowania i typ pracy lub kursu.
+In the project directory, you can run:
 
-3.Aplikacja powinna wykorzystywać webscraping do pobierania danych z różnych źródeł, takich jak portale pracy i edukacyjne, aby zapewnić jak najszerszy wybór ofert.
+### `npm start`
 
-4.Aplikacja powinna umożliwiać użytkownikom przeglądanie szczegółów każdej oferty, takich jak wymagania, zakres obowiązków, wynagrodzenie, terminy i inne.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-5.Aplikacja powinna pozwalać użytkownikom na zapisywanie interesujących ich ofert w zakładce "Ulubione", aby łatwo je odnaleźć później.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-WYMAGANIA NIEFUNKCJIONALNE
+### `npm test`
 
-1.Aplikacja powinna być dostępna z różnych urządzeń i systemów operacyjnych, w tym komputerów, tabletów i smartfonów.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2.Aplikacja powinna zapewnić łatwy i intuicyjny interfejs użytkownika, aby umożliwić szybkie i skuteczne przeglądanie wyników.
+### `npm run build`
 
-3.Aplikacja powinna być wydajna i działać szybko, nawet przy dużych ilościach danych.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4.Aplikacja powinna być bezpieczna i chronić prywatność użytkowników, zapewniając zabezpieczenie danych logowania i innych poufnych informacji.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-5.Aplikacja powinna być łatwa do skalowania, aby umożliwić rozwijanie jej w przyszłości o nowe funkcje i integracje z innymi narzędziami.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-WYMAGANIA TECHNICZNE
+### `npm run eject`
 
-1.Aplikacja powinna być napisana w języku Python, wykorzystując framework Flask do tworzenia backendu.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-2.Aplikacja powinna wykorzystywać React do tworzenia frontendu, aby umożliwić responsywny interfejs użytkownika.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-3.Aplikacja powinna korzystać z bibliotek i narzędzi Python do webscrapingu, takich jak BeautifulSoup i Scrapy, aby pobierać dane z różnych źródeł.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-4.Aplikacja powinna wykorzystywać bazy danych, takie jak MySQL lub MongoDB, do przechowywania danych ofert pracy i kursów oraz danych użytkowników.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-5.Aplikacja powinna być hostowana na platformie chmurowej
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
