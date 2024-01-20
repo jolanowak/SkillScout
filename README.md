@@ -1,70 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dokumentacja Projektu Aplikacja SkillScout
+Opis Projektu
+Aplikacja SkillScout to wieloplatformowa platforma stworzona z myślą o juniorach IT, umożliwiająca przeglądanie i wyszukiwanie ofert pracy oraz kursów z branży technologicznej. Aplikacja wykorzystuje web scraping do zbierania i aktualizowania informacji o ofertach pracy i kursach z różnych źródeł internetowych. Napisana jest w języku JavaScript, co pozwala na łatwą integrację z różnymi technologiami webowymi.
 
-## Available Scripts
+Technologie
+JavaScript: 50.0%
+HTML: 19.9%
+CSS: 15.1%
+Python: 15.0%
+Struktura Projektu
+src/ - Źródłowy kod aplikacji
+components/ - Komponenty JavaScript
+styles/ - Style CSS
+index.html - Plik HTML startowy
+app.js - Główny plik JavaScript
+scripts/ - Skrypty Python do web scrapingu
+data/ - Zbierane dane z ofert pracy i kursów
+docs/ - Dokumentacja projektu
+Uruchamianie Projektu
+Instalacja zależności
 
-In the project directory, you can run:
+bash
+Copy code
+cd src
+npm install
+Uruchomienie aplikacji
 
-### `npm start`
+bash
+Copy code
+cd src
+npm start
+Uruchomienie skryptów do web scrapingu
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd scripts
+python scrape_jobs.py
+python scrape_courses.py
+Web Scraping
+Aplikacja korzysta z web scrapingu do zbierania informacji o ofertach pracy i kursach.
+Skrypty do web scrapingu znajdują się w folderze scripts/.
+Dane zbierane są i przechowywane w folderze data/.
+Konfiguracja
+Konfiguracja aplikacji znajduje się w pliku src/config.js.
+W pliku konfiguracyjnym można dostosować źródła danych i inne ustawienia.
+Licencja
+Projekt dostępny jest na licencji MIT. Zobacz plik LICENSE.md dla więcej informacji.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Autor
+[Jolanta N, Katarzyna B.]
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Uwagi
+Projekt wymaga dostępu do internetu w celu aktualizacji danych za pomocą web scrapingu.
+Aplikacja nie posiada jeszcze interfejsu użytkownika i funkcji wyszukiwania. Planowane jest dodanie tych funkcji w przyszłych wersjach.
+Znane Problemy
+[Opis problemu, jeśli istnieją]
+Changelog
+[v1.0.0] - YYYY-MM-DD
+Pierwsze wydanie
+Dodano web scraping ofert pracy
+Dodano web scraping kursów
+Utworzono strukturę projektu
